@@ -1,9 +1,9 @@
 {
-  "name": "calcio-live-card",
+  "name": "team-live-card",
   "version": "2.1.1",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --output-filename team-live-card.bundle.js"
   },
   "repository": {
     "type": "git",

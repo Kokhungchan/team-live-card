@@ -255,11 +255,11 @@
           </ul>
           <p><strong>Away Statistics:</strong></p>
           <ul>
-            <li>Possesso Palla: <span class="stat-value">${this.activeMatch.away_statistics?.possessionPct??"N/A"}%</span></li>
-            <li>Tiri Totali: <span class="stat-value">${this.activeMatch.away_statistics?.totalShots??"N/A"}</span></li>
-            <li>Tiri in Porta: <span class="stat-value">${this.activeMatch.away_statistics?.shotsOnTarget??"N/A"}</span></li>
-            <li>Falli Comessi: <span class="stat-value">${this.activeMatch.away_statistics?.foulsCommitted??"N/A"}</span></li>
-            <li>Assist: <span class="stat-value">${this.activeMatch.away_statistics?.goalAssists??"N/A"}</span></li>
+            <li>Ball Possession: <span class="stat-value">${this.activeMatch.away_statistics?.possessionPct??"N/A"}%</span></li>
+            <li>Total Shots: <span class="stat-value">${this.activeMatch.away_statistics?.totalShots??"N/A"}</span></li>
+            <li>Shots on Target: <span class="stat-value">${this.activeMatch.away_statistics?.shotsOnTarget??"N/A"}</span></li>
+            <li>Fouls Committed: <span class="stat-value">${this.activeMatch.away_statistics?.foulsCommitted??"N/A"}</span></li>
+            <li>Assists: <span class="stat-value">${this.activeMatch.away_statistics?.goalAssists??"N/A"}</span></li>
           </ul>
 
           <h4 class="popup-subtitle">Match Events</h4>

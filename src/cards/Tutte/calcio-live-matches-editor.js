@@ -173,4 +173,4 @@ class CalcioLiveTodayMatchesEditor extends LitElement {
     }
 }
 
-customElements.define('calcio-live-matches-editor', CalcioLiveTodayMatchesEditor);
+customElements.define('team-live-matches-editor', CalcioLiveTodayMatchesEditor);

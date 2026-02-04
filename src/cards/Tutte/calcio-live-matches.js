@@ -31,7 +31,7 @@ class CalcioLiveTodayMatchesCard extends LitElement {
   }
 
   static getConfigElement() {
-    return document.createElement("calcio-live-matches-editor");
+    return document.createElement("team-live-matches-editor");
   }
 
   static getStubConfig() {
@@ -464,11 +464,11 @@ class CalcioLiveTodayMatchesCard extends LitElement {
   }
 }
 
-customElements.define("calcio-live-matches", CalcioLiveTodayMatchesCard);
+customElements.define("team-live-matches", CalcioLiveTodayMatchesCard);
 
 window.customCards = window.customCards || [];
 window.customCards.push({
-  type: 'calcio-live-matches',
-  name: 'Calcio Live Matches Card',
+  type: 'team-live-matches',
+  name: 'Team Live Matches Card',
   description: 'Shows weekly matches or your team matches',
 });

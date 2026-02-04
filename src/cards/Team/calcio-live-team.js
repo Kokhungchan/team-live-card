@@ -24,7 +24,7 @@ class CalcioLiveTeamNextCard extends LitElement {
   }
 
   static getConfigElement() {
-    return document.createElement("calcio-live-team-editor");
+    return document.createElement("team-live-team-editor");
   }
 
   static getStubConfig() {
@@ -448,11 +448,11 @@ class CalcioLiveTeamNextCard extends LitElement {
   }
 }
 
-customElements.define("calcio-live-team", CalcioLiveTeamNextCard);
+customElements.define("team-live-team", CalcioLiveTeamNextCard);
 
 window.customCards = window.customCards || [];
 window.customCards.push({
-  type: 'calcio-live-team',
-  name: 'Calcio Live team Card',
+  type: 'team-live-team',
+  name: 'Team Live Team Card',
   description: 'Shows matches for your team',
 });

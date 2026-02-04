@@ -185,4 +185,4 @@ class CalcioLiveClassificaCardEditor extends LitElement {
     }
 }
 
-customElements.define('calcio-live-classifica-editor', CalcioLiveClassificaCardEditor);
+customElements.define('team-live-standings-editor', CalcioLiveClassificaCardEditor);

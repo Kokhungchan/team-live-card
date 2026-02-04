@@ -26,7 +26,7 @@ class CalcioLiveStandingsCard extends LitElement {
   }
   
   static getConfigElement() {
-    return document.createElement("calcio-live-classifica-editor");
+    return document.createElement("team-live-standings-editor");
   }
 
   static getStubConfig() {
@@ -239,11 +239,11 @@ class CalcioLiveStandingsCard extends LitElement {
   }
 }
 
-customElements.define("calcio-live-classifica", CalcioLiveStandingsCard);
+customElements.define("team-live-standings", CalcioLiveStandingsCard);
 
 window.customCards = window.customCards || [];
 window.customCards.push({
-  type: 'calcio-live-classifica',
-  name: 'Calcio Live Classifica Card',
+  type: 'team-live-standings',
+  name: 'Team Live Standings Card',
   description: 'Shows league standings or cup standings',
 });

@@ -1,9 +1,9 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/calcio-live-card.js',
+  entry: './src/team-live-card.js',
   output: {
-    filename: 'calcio-live-card.bundle.js',
+    filename: 'team-live-card.bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
@@ -16,7 +16,7 @@ module.exports = {
           options: {
             presets: [
               ['@babel/preset-env', {
-                targets: "> 0.25%, not dead" // Imposta il target per un supporto ampio dei browser
+                targets: "> 0.25%, not dead" // Set target for broad browser support
               }]
             ]
           }

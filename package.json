@@ -3,7 +3,7 @@
   "version": "2.1.1",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack --output-filename team-live-card.bundle.js"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

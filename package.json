@@ -1,21 +1,21 @@
 {
   "name": "team-live-card",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://Bobsilvio@github.com/Bobsilvio/calcio-live-card.git"
+    "url": "git+https://github.com/Kokhungchan/team-live-card.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bobsilvio/calcio-live-card/issues"
+    "url": "https://github.com/Kokhungchan/team-live-card/issues"
   },
-  "homepage": "https://github.com/Bobsilvio/calcio-live-card#readme",
+  "homepage": "https://github.com/Kokhungchan/team-live-card#readme",
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",

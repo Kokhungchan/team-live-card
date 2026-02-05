@@ -3,6 +3,5 @@
   "content_in_root": false,
   "filename": "dist/team-live-card.bundle.js",
   "homeassistant": "2024.8.0",
-  "render_readme": true,
-  "iot_class": "Local Polling"
+  "render_readme": true
 }

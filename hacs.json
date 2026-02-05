@@ -1,7 +1,7 @@
 {
   "name": "Team Live Card",
   "content_in_root": false,
-  "filename": "dist/team-live-card.bundle.js",
+  "filename": "dist/team-live-card.js",
   "homeassistant": "2024.8.0",
   "render_readme": true
 }

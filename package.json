@@ -1,6 +1,6 @@
 {
   "name": "team-live-card",
-  "version": "2.1.2",
+  "version": "1.0.0",
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack"
